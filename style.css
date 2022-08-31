@@ -28,16 +28,29 @@ h4 {color: #23d3d9;
 body {font-family: Andale Mono, monospace}
 
 .name {
-  text-align: center;
-}
+  text-align: center;}
 
-.name {color: solid black;
+.name {color: cyan;
     font-size: 35px;
     text-shadow: 0 0 3px #23d3d9, 0 0 5px #23d3d9;}
 
 
 body {
   background-color: gray;
-}
- 
 
+ 
+background-color: #757575;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");}
+
+.name {
+  width: 1000px;
+  height: 45px;
+  background-color: gray;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;}
+
+@keyframes example {
+  from {background-color: gray;}
+  to {background-color: lightgray;}
+  
