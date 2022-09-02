@@ -34,7 +34,7 @@ h4{
 
 .row:after {
   content: "";
-  display: table;
+  display: flex;
   clear: both;
 }
 
