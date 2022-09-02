@@ -1,3 +1,4 @@
+
 p {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -17,6 +18,25 @@ h4{
   margin-left: 30px;
   text-decoration-line: underline;
   text-decoration-style: solidb;}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 30px;
+  height: 150px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .school {font: bold 20px Andale Mono, monospace;
     text-decoration-line: underline;
@@ -52,7 +72,7 @@ body {
 
 .name {
   width: 1000px;
-  height: 40px;
+  height: 50px;
   background-color: gray;
   animation-name: example;
   animation-duration: 4s;
@@ -64,3 +84,4 @@ body {
   
 h4 {text-decoration-line: underline;
     text-decoration-style: solid;}
+  
