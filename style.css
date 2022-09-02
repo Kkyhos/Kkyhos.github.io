@@ -23,18 +23,16 @@ h4{
   box-sizing: border-box;
 }
 
-
 .column {
-  flex: left;
+  float: left;
   width: 50%;
   padding: 30px;
   height: 150px;
 }
 
-
 .row:after {
   content: "";
-  display: flex;
+  display: table;
   clear: both;
 }
 
@@ -84,4 +82,3 @@ body {
   
 h4 {text-decoration-line: underline;
     text-decoration-style: solid;}
-  
